@@ -1,0 +1,3 @@
+>sqlcmd -S localhost\sqlexpress -U <local user name> -P <local password>
+1> create database registration
+2> GO   

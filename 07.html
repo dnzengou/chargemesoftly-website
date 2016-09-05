@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JustRunIt – Place page</title>
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/img/ico/apple-touch-icon-57-precomposed.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<!--Font Awesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+<!--Main styles-->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--Adaptive styles-->
+<link rel="stylesheet" type="text/css" href="css/adaptive.css">
+<!--Swipe menu-->
+<link rel="stylesheet" type="text/css" href="css/pushy.css">
+<!--fonts-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<!--animation css-->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- Slider Revolution -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="inner_page innerpage">
+<div class="bg_parallax" id="inb">
+<!--navigation swipe-->
+<div class="menu-btn">&#9776;</div>
+<nav class="pushy pushy-left">
+<div class="profile">
+<div class="avatar"><img src="img/avatar/ava_menu.png" alt="#"><span></span></div>
+	<h3><a href="03.html">Hello there!</a></h3>
+	<a href="#" class="log_btn">Log in</a>
+</div>
+	<ul class="side_menu">
+      <!--<li><a href="index.html"><i class="fa fa-bookmark-o"></i>Promo page</a></li>-->
+      <li><a href="01.html" class="animation-link"><i class="fa fa-map-marker"></i>Map</a></li>
+      <!--<li><a href="05.html"><i class="fa fa-list"></i>Place list</a></li>-->
+      <li><a href="04.html"><i class="fa fa-th"></i>Place grid</a></li>
+      <li><a href="02.html"><i class="fa fa-thumb-tack"></i>Place</a></li>
+      <!--<li><a href="03.html"><i class="fa fa-user"></i>User profile</a></li>-->
+      <li><a href="06.html"><i class="fa fa-book"></i>Blog</a></li>
+      <li><a href="07.html"><i class="fa fa-star"></i>Socials</a></li><!--tweeter, fb, instagram, google custom search feeds-->
+      <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+    </ul>
+</nav>
+
+<!--add-->
+<div class="add_place none" id="pl">
+<div class="place_form">
+<i class="fa fa-times close_window" id="close"></i>
+<h3>Add new place<span></span></h3>
+<form>
+<label>Place name:<input type="text"></label>
+<label>latitude:<input type="text"></label>
+<label>longitude:<input type="text"></label>
+<label>Category:
+<select>
+<option value="Buddy">Buddy</option>
+<option value="Coach">Coach</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Gym">Gym</option>
+</select>
+</label>
+<a href="#" class="green_btn_header" id="add">Add</a>
+</form>
+</div>
+</div>
+
+<!--autorization-->
+<div class="add_place none" id="autorized">
+<div class="place_form login_form">
+<i class="fa fa-times close_window" id="closeau"></i>
+<h3>Sign in<span></span></h3>
+<!--<form>
+<label>Login:<input type="text"></label>
+<label>Password:<input type="text"></label>
+<a href="#" class="btn btn-success">Log in</a>
+<a href="#" class="btn btn-primary"><i class="icon-facebook"></i>Log in with Facebook</a>
+</form>-->
+</div>
+</div>
+<div class="site-overlay"></div>
+<div id="container">
+<!--header-->
+<div class="container-fluid header inner_head">
+<div class="fixed_w">
+<div class="row">
+<div class="col-md-12"><a href="index.html" class="logo"><img src="img/logoin.png" alt="Mycity"/></a>
+<input type="text" class="search" placeholder="search"><a href="#" class="green_btn_header" id="ad">Add place</a></div>
+</div>
+</div>
+</div>
+<div class="container page_info">
+<div class="col_md_12">
+<h1>Our feeds</h1>
+<!--<p class="lead">(Twitter, Facebook, Instagram, etc.)</p>-->
+
+	<ul class="connect list-inline">
+    	<li><a  target="_blank" href="http://twitter.com/Justrun_it" ><i class="fa fa-twitter"></i></a></li>
+        <li><a  target="_blank" href="" ><i class="fa fa-facebook-square"></i></a></li>
+        <li><a  target="_blank" href="" ><i class="fa fa-globe"></i></a></li>
+        <li class="row-end"><a href="https://www.instagram.com/justrun_it/" ><i class="fa fa-instagram"></i></a></li>
+    </ul>
+
+<!--Blog category-->
+<ul class="blog_cat">
+	<li><span>Category:</span></li>
+
+	<li><a href="#">Sport</a></li>
+  	<li><a href="#">Health</a></li>
+  	<li><a href="#" class="active">Wellbeing</a></li>
+  	<li><a href="#">Coach</a></li>
+  	<li><a href="#">Nutrition</a></li>
+</ul>
+</div>
+</div>
+<!-- Set up HTML div where we'll place the chart -->
+<!--<div id="container" style="width: 100%; height: 400px; margin: 20px auto">--><!-- This space intentionally left blank -->
+
+<div class="row">
+
+<div class="place_li_cont">
+<!--headlines-->
+<!--Blog post style one-->
+<div class="post p_style_one open">
+<div class="text-center">
+
+	
+
+	<section class="homepage social">
+		<h2 class="homepage-heading">Get Connected</h2>
+
+		<div class="row row-no-padding">
+			<div class="col-xs-12 col-sm-4">
+				<h4><a  target="_blank" href="https://www.instagram.com/justrun_it/" ><i class="fa fa-instagram"></i> Instagram</a></h4>
+
+
+<!-- start instagram feed -->
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#fff; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BEvjBJnTYZw/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#swimmer a.k.a La #nageuse</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Une photo publiée par JustRunIt (@justrun_it) le <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-04-28T11:52:07+00:00">28 Avril 2016 à 4h52 PDT</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<!-- end instagram feed -->
+			</div>
+			
+			<div class="col-xs-12 col-sm-4">
+				<h4><a  target="_blank" href="" ><i class="fa fa-twitter"></i> Twitter</a></h4>
+				<div class="widget">
+				<!-- start twitter feed --><!-- nobackground -->
+
+					<a class="twitter-timeline" height="358" href="https://twitter.com/justrun_it" data-widget-id="728566643765432320" data-chrome=" noheader transparent noborders">by @Justrun_it</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+				<!-- end twitter feed -->
+
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4">
+				<h4><a  target="_blank" href="" ><i class="fa fa-facebook-square"></i> Facebook</a></h4>
+				<!--<div class="widget">
+				<a class="twitter-timeline" height="358" href="https://www.facebook.com/justrunit.co" data-widget-id="188364144869673" data-chrome=" noheader transparent noborders">by @Justrun_it</a>-->
+					
+					<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjustrunit.co%2Fposts%2F233042750401812&width=350" width="350" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/justrunit.co"><a href="https://www.facebook.com/justrunit.co"></a></blockquote></div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+
+<!-- end fb feed -->
+
+<hr>
+
+
+<div class ="container">
+<div class="post p_style_one open">
+
+<div class="post_content">
+<p>Comment 1.</p>
+
+<p>Comment 2.</p>
+
+<p>Comment ".</p>
+<ul class="mainlist">
+<li>Item 1</li>
+<li>Item 2</li>
+<!--<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit</li>-->
+</ul>
+<p>"Quote 1."</p>
+
+<!--<p></p>-->
+
+</div>
+</div>
+
+<!--subscribe-->
+<div class="Subscribe">
+<div>
+<h2>Subscribe now</h2>
+<form>
+<input type="text"><button class="btn btn-danger">Subscribe</button>
+</form>
+</div>
+</div>
+
+<!--add comment-->
+<div class="add_comment">
+<h4>Add comment</h4>
+<textarea></textarea>
+<a href="#" class="btn btn-success">Add comment</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<br>
+
+<div class="row" style="color:#fff">
+
+
+		<footer id="footer">
+			<div class="col-sm-4 col-xs-12">
+									<p>&copy; JustRunIt</p></div>
+
+				<div class="col-sm-4 col-xs-12">
+					<ul>
+<!--					<li><a href="/site-map">--><!--</a></li>-->
+<!--					<li><a href="/accessibility">--><!--</a></li>-->
+<!--					<li><a href="/act-information">--><!--</a></li>-->
+					<li><a href="mailto:contact@justrunit.co">Contact</a></li>
+					<li><a href="/06.html">Blog</a></li>
+					</ul>
+				</div>
+
+				<div id="text-2" class="widget widget_text">			<div class="textwidget">
+					<a target='_blank' href="https://www.facebook.com/justrunit.co"><img src="/img/facebook.png" class="img-thumbnail" alt="Facebook" width="24" height="24"></a>
+					<a target='_blank' href="https://twitter.com/justun_it"><img src="/img/twitter.png" class="img-thumbnail" alt="Twitter" width="24" height="24"></a>
+					<!--<a target='_blank' href="#"><img src="/wp-content/themes/actalliance2015/images/flickr.png" alt="Flickr"></a> -->
+					<a target='_blank' href="https://www.instagram.com/justrun_it/"><img src="/img/instagram.png" class="img-thumbnail" alt="Instagram" width="24" height="24"></a>
+					<!--<a target='_blank' href="#"><img src="/wp-content/themes/actalliance2015/images/RSS.png" alt="RSS"></a> -->
+					</div>
+				</div>			
+			</div>
+
+		</footer>
+
+</div><!-- .container -->
+
+
+
+<!-- end footer -->
+
+
+<!--
+#################################
+- SCRIPT FILES -
+#################################
+-->
+
+<!-- google analytics-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78315603-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!--Google maps API linl-->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsbzuJDUEOoq-jS1HO-LUXW4qo0gW9FNs"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!--scroll animate block-->
+<script src="js/wow.min.js"></script>
+<!--Other main scripts-->
+<script src="js/all_scr.js"></script>
+<!--Bootstrap js-->  
+<script src="js/bootstrap.min.js"></script>
+<!--Map js-->
+<script type="text/javascript" src="js/map_visits.js"></script>
+<script type="text/javascript" src="js/infobox.js"></script>
+<!--Slider Revolution-->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!--Parallax-->
+<script type="text/javascript" src="js/jquery.parallax-0.2-min.js"></script>
+
+<script type="text/javascript">
+   "use strict";
+$('#inb').parallax({
+'elements': [
+{
+'selector': '#inb',
+'properties': {
+'x': {
+'background-position-x': {
+'initial': 0,
+'multiplier': 0.03,
+'invert': true
+}
+},
+'y': {
+'background-position-y': {
+'initial': 30,
+'multiplier': 0.03,
+'invert': true
+}
+}
+}
+}
+]
+});
+</script>
+</body>
+</html>
